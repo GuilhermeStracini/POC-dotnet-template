@@ -1,7 +1,9 @@
-# POC-dotnet-template
+# PoC .NET template
 
-🔬 Proof of Concept template repository for .NET
+A template repository for .NET PoC (Proof of Concept)
 
 ---
 
-Use this template repository when creating a new .NET PoC with GitHub Actions CI, .NET 8 console App, and Unit Tests (xUnit) project. 
+- Create a new repository using this one as a template (click the green button at the top right of this page).
+- Edit [README.md](README.md) file to align with your PoC.
+- Change the solution and projects to suit your investigation/test/concept.
