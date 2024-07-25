@@ -1,3 +1,24 @@
+# Installation Guide
+
+Follow these steps to set up the project. This guide includes installation scripts for PowerShell, Shell/Bash, and Batch.
+
+## PowerShell
+
+```powershell
+.\install.ps1
+```
+
+## Shell/Bash
+
+```bash
+./install.sh
+```
+
+## Batch
+
+```batch
+.\install.bat
+```
 # PoC .NET template
 
 A template repository for .NET PoC (Proof of Concept)
