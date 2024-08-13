@@ -1,10 +1,10 @@
 # Project Title
 
-One Paragraph of project description goes here.
+One Paragraph of the project description goes here.
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+These instructions will get you a copy of the project up and running on your local machine for development and testing. See deployment for notes on deploying the project on a live system.
 
 ## Useful links
 
@@ -14,7 +14,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+What things do you need to install the software, and how to install them
 
 ```
 Give examples
@@ -22,7 +22,7 @@ Give examples
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
+A step-by-step series of examples that tell you how to get a development env running
 
 Say what the step will be
 
@@ -32,4 +32,4 @@ Give the example
 
 Repeat until finished
 
-End with an example of getting some data out of the system or using it for a little demo
+End with an example of getting some data out of the system or using it for a little demo.
