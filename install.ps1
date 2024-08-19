@@ -1,4 +1,5 @@
-$POCName = Read-Host -Prompt 'POC name (readable version)'
+$POCName = Read-Host -Prompt 'POC name (file name)'
+$POCNameReadable = Read-Host -Prompt 'POC name (readable version)'
 $MainProjectFile = "Src/POCTemplate/POCTemplate.csproj"
 $UnitTestProjectFile = "Tests/POCTemplate.Tests/POCTemplate.Tests.csproj"
 $MainDir = "Src/POCTemplate"
@@ -7,9 +8,9 @@ $UnitTestDir = "Tests/POCTemplate.Tests"
 rm README.md
 mv "README.template.md" "README.md"
  
-(Get-Content README.md) | ForEach-Object {$_ -replace "POCTemplate", $POCName} | Set-Content README.md
-(Get-Content .wakatime-project) | ForEach-Object {$_ -replace "POCTemplate", "$POCName"} | Set-Content .wakatime-project
-(Get-Content _config.yml) | ForEach-Object {$_ -replace "POCTemplate", $POCName} | Set-Content _config.yml
+(Get-Content README.md) | ForEach-Object {$_ -replace "POCTemplate", $POCNameReadable} | Set-Content README.md
+(Get-Content .wakatime-project) | ForEach-Object {$_ -replace "POC .NET Template", "$POCNameReadable"} | Set-Content .wakatime-project
+(Get-Content _config.yml) | ForEach-Object {$_ -replace "POCTemplate", $POCNameReadable} | Set-Content _config.yml
  
 (Get-ChildItem -Recurse -Include *.cs*) | ForEach-Object {
  $Content = Get-Content $_
