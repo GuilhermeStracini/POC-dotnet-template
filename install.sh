@@ -26,8 +26,8 @@ sed -i "s/POCTemplate/$POCName/" "POCTemplate.sln"
 mv "POCTemplate.sln" "$POCName.sln"
 mv "$MainProjectFile" "$POCName.csproj"
 mv "$UnitTestProjectFile" "$POCName.Tests.csproj"
-mv "$MainDir" "$POCName"
-mv "$UnitTestDir" "$POCName.Tests"
+mv "$MainDir" "Src/$POCName"
+mv "$UnitTestDir" "Tests/$POCName.Tests"
 
 rm install.bat
 rm install.ps1
