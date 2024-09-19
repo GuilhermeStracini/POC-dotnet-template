@@ -31,6 +31,6 @@ Rename-Item -Path $UnitTestProjectFile -NewName "$POCName.Tests.csproj"
 Rename-Item -Path $MainDir $POCName
 Rename-Item -Path $UnitTestDir "$POCName.Tests"
 
-Remove-Item install.bat
-Remove-Item install.ps1
-Remove-Item install.sh
+Remove-Item initial-setup.bat
+Remove-Item initial-setup.ps1
+Remove-Item initial-setup.sh
