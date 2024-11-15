@@ -10,7 +10,7 @@ UnitTestDir="Tests/POCTemplate.Tests"
 rm README.md
 mv "README.template.md" "README.md"
 
-sed -i "s/POCTemplate/$POCNameReadable/g" README.md
+sed -i "s/POC Template/$POCNameReadable/g" README.md
 sed -i "s/POC .NET Template/$POCNameReadable/g" .wakatime-project
 sed -i "s/POCTemplate/$POCNameReadable/g" _config.yml
 
