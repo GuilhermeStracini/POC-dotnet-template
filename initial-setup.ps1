@@ -8,7 +8,7 @@ $UnitTestDir = "Tests/POCTemplate.Tests"
 rm README.md
 mv "README.template.md" "README.md"
  
-(Get-Content README.md) | ForEach-Object {$_ -replace "POCTemplate", $POCNameReadable} | Set-Content README.md
+(Get-Content README.md) | ForEach-Object {$_ -replace "POC Template", $POCNameReadable} | Set-Content README.md
 (Get-Content .wakatime-project) | ForEach-Object {$_ -replace "POC .NET Template", "$POCNameReadable"} | Set-Content .wakatime-project
 (Get-Content _config.yml) | ForEach-Object {$_ -replace "POCTemplate", $POCNameReadable} | Set-Content _config.yml
  
