@@ -24,8 +24,6 @@ done
 
 sed -i "s/POCTemplate/$POCName/" "POCTemplate.sln"
 mv "POCTemplate.sln" "$POCName.sln"
-sed -i "s/POCTemplate/$POCName/" "POCTemplate.sln"
-mv "POCTemplate.sln" "$POCName.sln"
 mv "$MainProjectFile" "Src/POCTemplate/$POCName.csproj"
 mv "$UnitTestProjectFile" "Tests/POCTemplate.Tests/$POCName.Tests.csproj"
 mv "$MainDir" "Src/$POCName"
