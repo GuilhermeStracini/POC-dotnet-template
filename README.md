@@ -15,17 +15,17 @@ Follow these steps to set up the project. This guide includes installation scrip
 ### PowerShell
 
 ```ps
-.\install.ps1
+.\initial-setup.ps1
 ```
 
 ### Shell/Bash
 
 ```bash
-./install.sh
+./initial-setup.sh
 ```
 
 ### Batch
 
 ```batch
-.\install.bat
+.\initial-setup.bat
 ```
