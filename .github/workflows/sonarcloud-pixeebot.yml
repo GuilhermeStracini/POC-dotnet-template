@@ -16,3 +16,4 @@ jobs:
         with:
           tool: sonar
           sonar-token: ${{ secrets.SONAR_TOKEN }}
+          # TODO: Ensure seamless integration with supported C# code scanning tools like SonarCloud, CodeQL, and Semgrep.
